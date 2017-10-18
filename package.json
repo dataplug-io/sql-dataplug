@@ -1,0 +1,44 @@
+{
+  "name": "@dataplug/sql-dataplug",
+  "version": "0.1.0",
+  "description": "SQL dataplug (by Dataplug.io)",
+  "main": "lib/index.js",
+  "bin": {
+    "sql-dataplug": "bin/sql-dataplug.js"
+  },
+  "scripts": {
+    "jsdoc": "jsdoc --destination ./docs --recurse ./lib ./bin --verbose",
+    "test": "echo \"Warning: no test specified\" && exit 0",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dataplug-io/sql-dataplug.git"
+  },
+  "keywords": [
+    "sql",
+    "data",
+    "export",
+    "import"
+  ],
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dataplug-io/sql-dataplug/issues"
+  },
+  "homepage": "https://github.com/dataplug-io/sql-dataplug#readme",
+  "dependencies": {
+    "@dataplug/dataplug": "^0.2.0",
+    "@dataplug/dataplug-cli": "^0.2.0",
+    "bluebird": "^3.5.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "mocha": "^4.0.1",
+    "standard": "^10.0.3"
+  }
+}
