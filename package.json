@@ -4,13 +4,15 @@
   "description": "SQL dataplug (by Dataplug.io)",
   "main": "lib/index.js",
   "bin": {
-    "sql-dataplug": "bin/sql-dataplug.js"
+    "sql-dataplug": "bin/cli.js"
   },
   "scripts": {
     "jsdoc": "jsdoc --destination ./docs --recurse ./lib ./bin --verbose",
-    "test": "mocha",
-    "coverage": "nyc --reporter=html --reporter=text mocha",
-    "preversion": "npm test",
+    "lint": "standard",
+    "test": "nyc --reporter=none mocha",
+    "coverage": "nyc report --reporter=html --reporter=text",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "preversion": "npm run lint && npm run test",
     "postversion": "git push && git push --tags"
   },
   "engines": {
@@ -39,6 +41,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
     "jsdoc": "^3.5.5",
     "mocha": "^4.0.1",
     "nyc": "^11.2.1",
