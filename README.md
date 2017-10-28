@@ -7,4 +7,4 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-A dataplug to work with data in SQL databases, such as PostgreSQL and MySQL.
+A dataplug to work with data in SQL databases.
