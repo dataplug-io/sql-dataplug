@@ -38,7 +38,7 @@
     "@dataplug/dataplug": "^0.22.0",
     "@dataplug/dataplug-cli": "^0.20.0",
     "@dataplug/dataplug-json": "^0.6.0",
-    "@dataplug/dataplug-sql": "^0.11.0",
+    "@dataplug/dataplug-sql": "^0.12.0",
     "bluebird": "^3.5.1",
     "chalk": "^2.3.0"
   },
