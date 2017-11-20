@@ -36,10 +36,10 @@
   "homepage": "https://github.com/dataplug-io/sql-dataplug#readme",
   "dependencies": {
     "@dataplug/dataplug": "^0.43.0",
-    "@dataplug/dataplug-cli": "^0.53.0",
-    "@dataplug/dataplug-flatters": "^0.11.0",
+    "@dataplug/dataplug-cli": "^0.54.0",
+    "@dataplug/dataplug-flatters": "^0.14.0",
     "@dataplug/dataplug-json": "^0.11.0",
-    "@dataplug/dataplug-sql": "^0.30.0",
+    "@dataplug/dataplug-sql": "^0.31.0",
     "bluebird": "^3.5.1",
     "chalk": "^2.3.0",
     "check-types": "^7.3.0",
@@ -48,7 +48,7 @@
     "winston": "^2.4.0"
   },
   "devDependencies": {
-    "@dataplug/dataplug-testsuite": "^0.21.0",
+    "@dataplug/dataplug-testsuite": "^0.22.0",
     "chai": "^4.1.2",
     "coveralls": "^3.0.0",
     "jsdoc": "^3.5.5",
