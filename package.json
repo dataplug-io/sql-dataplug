@@ -39,7 +39,7 @@
     "@dataplug/dataplug-cli": "^0.54.0",
     "@dataplug/dataplug-flatters": "^0.14.0",
     "@dataplug/dataplug-json": "^0.11.0",
-    "@dataplug/dataplug-sql": "^0.31.0",
+    "@dataplug/dataplug-sql": "^0.32.0",
     "bluebird": "^3.5.1",
     "chalk": "^2.3.0",
     "check-types": "^7.3.0",
