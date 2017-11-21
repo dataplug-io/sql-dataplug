@@ -1,6 +1,6 @@
 {
   "name": "@dataplug/sql-dataplug",
-  "version": "0.35.0",
+  "version": "0.36.0",
   "description": "SQL dataplug (by Dataplug.io)",
   "main": "lib/index.js",
   "bin": {
